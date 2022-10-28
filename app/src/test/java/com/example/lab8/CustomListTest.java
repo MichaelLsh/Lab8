@@ -61,6 +61,5 @@ public class CustomListTest {
         assertThrows(IllegalArgumentException.class,
                 ()->{list.deleteCity(city);});
         assertFalse(list.hasCity(city));
-
     }
 }
