@@ -72,4 +72,19 @@ public class CustomList extends ArrayAdapter<City> {
         }
         return false;
     }
+
+    /*
+     * This function delete the given city if it exists inside the list of cities
+     * @param city
+     * This is the given city with a type of {@link City} to check if it exists inside the city list, if so then remove it from the city list with a type of {@link List}
+     * @return
+     * */
+    public void deleteCity(City city){
+//        if (cities.contains(city)){
+//            cities.remove(city);
+//        } else{
+//            throw new IllegalArgumentException();
+//        }
+    }
+
 }
