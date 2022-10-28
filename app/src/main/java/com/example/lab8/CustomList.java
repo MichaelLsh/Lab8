@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CustomList extends ArrayAdapter<City> {
 
@@ -58,4 +59,18 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
     }
 
+
+    /**
+     * This function returns true if the given city is existing, otherwise false
+     * @param city
+     * This is the given city with a type of {@link City} to check if it belongs to the city list with a type of {@link List}
+     * @return Return type is {@link boolean}
+     */
+    public boolean hasCity(City city){
+//        if (cities.contains(city)){
+//            return true;
+//        }
+//        return false;
+        return false;
+    }
 }
